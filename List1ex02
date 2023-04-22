@@ -1,0 +1,8 @@
+ int l1;        
+    int area;
+
+    Console.WriteLine("Digite sua aresta");
+    l1 = int.Parse(Console.ReadLine());
+    area = l1*l1;
+    Console.WriteLine("Resultado da area");
+    Console.WriteLine(area);
